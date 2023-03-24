@@ -160,7 +160,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
   }
   /* .body{
     background-color: #fff;
@@ -175,6 +174,7 @@
     grid-gap:6rem;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     align-items: start;
+    margin-top: 13rem;
   }
   .grid-item{
     background-color:#fff ;
@@ -241,11 +241,8 @@
     margin-left: 1.5rem; ;
     color: #0e8c58;
   }
-  a{
+  .card-btn a{
     text-decoration: none;
     color: #fff;
-  }
-  a:hover{
-    color: #0e8c58;
   }
   
