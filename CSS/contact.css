@@ -1,0 +1,130 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+  }
+  body {
+    overflow: hidden;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Navigation Styling */
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    background: #fff;
+    z-index: 100000;
+  }
+  .nav h2 {
+    color: #6d6875;
+    font-size: 3rem;
+  }
+  .nav h2 a {
+    text-decoration: none;
+    color: #6d6875;
+  }
+  #item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #6d6875;
+  }
+  #item li {
+    list-style: none;
+    padding: 1rem;
+  }
+  #item li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #6d6875;
+    transition: 0.5s;
+  }
+  #item li a:hover {
+    color: #0e8c58;
+  }
+  .title-style {
+    color: #0e8c58;
+  }
+  
+  /* Buttons Styling */
+  .home-btn{
+      position: relative;
+      width: 100%;
+      left: 9.3rem;
+      margin-top: 7rem;
+  }
+  .btn {
+    background-color: #0e8c58;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+  
+  
+  }
+  .btn:hover {
+    background-color: #fff;
+    color: #0e8c58;
+    border: solid #0e8c58;
+  }
+  /* --------------------- */
+  /* Input of contcat me styling */
+form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .projects {
+    padding-left: 10rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
