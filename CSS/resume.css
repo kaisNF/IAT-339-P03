@@ -244,6 +244,11 @@
   .card-btn a{
     text-decoration: none;
     color: #fff;
+    transition: .5s;
+  }
+  .card-btn a:hover{
+    text-decoration: none;
+    color: #0e8c58;
   }
   .title h1{
     text-align: center;
