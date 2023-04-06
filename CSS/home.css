@@ -59,11 +59,11 @@ html {
 }
 
 /* Buttons Styling */
-.home-btn{
-    position: relative;
-    width: 100%;
-    left: 9.3rem;
-    margin-top: 7rem;
+.home-btn {
+  position: relative;
+  width: 100%;
+  left: 9.3rem;
+  margin-top: 7rem;
 }
 .btn {
   background-color: #0e8c58;
@@ -75,9 +75,7 @@ html {
   font-size: 1em;
   cursor: pointer;
   transition: 0.5s;
-  box-shadow: 0 15px 10px rgba(0,0,0,0.4);
-
-
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
 }
 .btn:hover {
   background-color: #fff;
@@ -105,9 +103,8 @@ html {
   width: 60%;
   z-index: 5;
 }
-.cols0{
-    width: 60%;
-
+.cols0 {
+  width: 60%;
 }
 .topline {
   display: block;
@@ -124,34 +121,99 @@ html {
   bottom: 10px;
   background-color: #0e8c58;
 }
-h1{
-    display: block;
-    font-size: 7em;
-    font-weight: 900;
-    color: #6d6875;
+h1 {
+  display: block;
+  font-size: 7em;
+  font-weight: 900;
+  color: #6d6875;
 }
-.multitext{
-    color: #0e8c58;
-    text-transform: capitalize;
+.multitext {
+  color: #0e8c58;
+  text-transform: capitalize;
 }
-p{
-    font-family:Arial, Helvetica, sans-serif;
-    display: block;
-    margin-top: 2rem;
-    width: 90%;
-    font-size: 1.3em;
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin-top: 2rem;
+  width: 90%;
+  font-size: 1.3em;
 }
-.imgbox{
-    position: relative;
-    width: 100%;
-    height: 100%;
+.imgbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.imgbox img{
-    position: relative;
-    height: 100%;
-    width: calc(100% - 5rem);
-    top: -50px;
-    left: 30%;
-    border-radius: 3%;
+.imgbox img {
+  position: relative;
+  height: 100%;
+  width: calc(100% - 5rem);
+  top: -50px;
+  left: 30%;
+  border-radius: 3%;
+}
+/* Footer Styling */
+footer {
+  background: #0e8c58;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px top;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i {
+  font-size: 1.1rem;
+  transition: color .5 ease;
+}
+.socials a:hover i{
+  color: #6d6875;
+}
+.footer-bottom{
+  background: black;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
 
-}
