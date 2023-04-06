@@ -219,6 +219,7 @@ html {
   display: inline-block;
   font-size: 1em;
   cursor: pointer;
+  border: #0e8c58;
   transition: 0.5s;
 }
 .btn:hover {

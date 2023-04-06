@@ -75,6 +75,7 @@ html {
   font-size: 1em;
   cursor: pointer;
   transition: 0.5s;
+  border: #0e8c58;
   box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
 }
 .btn:hover {
