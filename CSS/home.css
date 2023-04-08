@@ -124,11 +124,12 @@ html {
 }
 h1 {
   display: block;
-  font-size: 7em;
+  font-size: 3em;
   font-weight: 900;
   color: #6d6875;
 }
 .multitext {
+  font-size: 3rem;
   color: #0e8c58;
   text-transform: capitalize;
 }
