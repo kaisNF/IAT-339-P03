@@ -124,74 +124,75 @@ input[type="submit"]:hover {
   display: flex;
   align-items: center;
 }
-/* Footer Styling */
-footer {
-  background: #0e8c58;
-  height: auto;
-  width: 100vw;
-  font-family: "Open Sans";
-  padding-top: 40px;
-  color: #fff;
-  margin-top: 12rem;
-}
-.footer-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
-.footer-content h3 {
-  font-size: 1.8rem;
-  font-weight: 400;
-  text-transform: capitalize;
-  line-height: 3rem;
-}
-.footer-content p {
-  max-width: 500px;
-  margin: 10px auto;
-  line-height: 28px;
-  font-size: 14px;
-}
-.socials {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 0 3rem 0;
-  transition: 0.5s;
-}
-.socials li {
-  margin: 0 10px;
-}
-.socials a {
-  text-decoration: none;
-  color: #fff;
-}
-.socials a i {
-  font-size: 1.3rem;
-  transition: color 0.5 ease;
-}
-.socials a:hover i {
-  color: #6d6875;
-}
-.footer-bottom {
-  background: black;
-  width: 100%;
-  padding: 20px 0;
-  text-align: center;
-}
-.footer-bottom p {
-  font-size: 14px;
-  word-spacing: 2px;
-  text-transform: capitalize;
-  margin-left: 4rem;
-}
-.footer-bottom span {
-  text-transform: uppercase;
-  color: #0e8c58;
-  font-weight: 200;
-}
+  /* Footer Styling */
+  footer {
+    background: #0e8c58;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+    margin-top:12rem; ;
+  }
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  .footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    transition: .5s;
+  }
+  .socials li {
+    margin: 0 10px;
+
+  }
+  .socials a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .socials a i {
+    font-size: 1.3rem;
+    transition: color .5 ease;
+  }
+  .socials a:hover i{
+    color: #6d6875;
+  }
+  .footer-bottom{
+    background: black;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    margin-left: 4rem;
+  }
+  .footer-bottom span{
+    text-transform: uppercase;
+    color: #0e8c58;
+    font-weight: 200;
+  }
 /* Thank you pop up styling */
 .popup{
   width: 400px;

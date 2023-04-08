@@ -194,7 +194,7 @@ footer {
   font-family: "Open Sans";
   padding-top: 40px;
   color: #fff;
-  margin-top: 12rem;
+  margin-top:12rem; ;
 }
 .footer-content {
   display: flex;
@@ -221,10 +221,11 @@ footer {
   align-items: center;
   justify-content: center;
   margin: 1rem 0 3rem 0;
-  transition: 0.5s;
+  transition: .5s;
 }
 .socials li {
   margin: 0 10px;
+
 }
 .socials a {
   text-decoration: none;
@@ -232,24 +233,24 @@ footer {
 }
 .socials a i {
   font-size: 1.3rem;
-  transition: color 0.5 ease;
+  transition: color .5 ease;
 }
-.socials a:hover i {
+.socials a:hover i{
   color: #6d6875;
 }
-.footer-bottom {
+.footer-bottom{
   background: black;
   width: 100%;
   padding: 20px 0;
   text-align: center;
 }
-.footer-bottom p {
+.footer-bottom p{
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
   margin-left: 4rem;
 }
-.footer-bottom span {
+.footer-bottom span{
   text-transform: uppercase;
   color: #0e8c58;
   font-weight: 200;
