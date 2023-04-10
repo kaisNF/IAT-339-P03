@@ -296,12 +296,13 @@ footer {
   width: 100%;
   padding: 20px 0;
   text-align: center;
+  justify-content: center;
 }
 .footer-bottom p{
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
-  margin-left: 4rem;
+  /* margin-left: 5rem; */
 }
 .footer-bottom span{
   text-transform: uppercase;
