@@ -442,6 +442,9 @@ footer {
   color: #0e8c58;
   font-weight: 200;
 }
+cite{
+  margin: 2rem;
+}
 
 @media screen and (max-width: 600px) {
   form {
