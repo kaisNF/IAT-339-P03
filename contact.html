@@ -27,19 +27,21 @@
         </ul>
     </div>
 
+<!-- Contact me form -->
     <form action="#" method="post">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Your name..">
+        <input type="text" name="name" placeholder="Your name..">
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Your email..">
+        <input type="email" name="email" placeholder="Your email..">
 
         <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" placeholder="Subject..">
+        <input type="text" name="subject" placeholder="Subject..">
 
         <label for="message">Message:</label>
         <textarea id="message" name="message" placeholder="Write something.."></textarea>
 
+<!-- Container for the popup message after submitting -->
         <div class="contrianer">
             <button type="submit" class="btn" onclick="openPopup()">Submit</button>
             <div class="popup" id="pop">
@@ -50,6 +52,8 @@
             </div>
         </div>
     </form>
+    
+<!-- Footer Section -->
     <footer>
         <div class="footer-content">
             <h3>Contact me for inquiries</h3>
@@ -59,7 +63,8 @@
             </p>
             <ul class="socials">
                 <li><a href="https://www.facebook.com/naffa.kais/"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/kais-neffati-0938a7204/"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/kais-neffati-0938a7204/"><i
+                            class="fa fa-linkedin-square"></i></a></li>
                 <li><a href="https://www.instagram.com/kais_naffa/"><i class="fa fa-instagram"></i></a></li>
             </ul>
         </div>
@@ -67,7 +72,7 @@
             <p>Copyright &copy;2023 by <span>Kais Neffati</span></p>
         </div>
     </footer>
-
+    <!-- JS script of the pop up animation when submit is clicked -->
     <script>
         let popup = document.getElementById("pop");
         function openPopup() {
